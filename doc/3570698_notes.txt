@@ -1,0 +1,15 @@
+Functions:
+----------
+8f91 -  Start of checksum function. Checksum stored at 9EFAh (orig cs 0xACD3)
+		Disable @ 0x8F61 D2 E7 (to disable via patch, set bit 8F61h.4) 
+		
+		
+Memory:
+-------
+
+xram:
+0C2 - bits
+	.0		(clr on boot)
+	.3		(clr on boot)
+	.6		(clr on boot)	
+    .7		(clr on boot) Flag for checksum check already passed
