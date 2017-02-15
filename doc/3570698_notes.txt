@@ -8,8 +8,12 @@ Memory:
 -------
 
 xram:
-0C2 - bits
+02Fh		(clr on init)
+0C2h - bits
 	.0		(clr on boot)
 	.3		(clr on boot)
 	.6		(clr on boot)	
     .7		(clr on boot) Flag for checksum check already passed
+	
+0F2h		(set to 3 on init)
+0F3h		(clr on init)
